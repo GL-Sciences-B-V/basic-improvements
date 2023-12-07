@@ -11,8 +11,8 @@
             "startupObjectType": "Page",
             "breakOnError": "All",
             "launchBrowser": true,
-            "enableLongRunningSqlStatements": true,
-            "enableSqlInformationDebugger": true
+            "enableLongRunningSqlStatements": false,
+            "enableSqlInformationDebugger": false
         }
     ]
 }
