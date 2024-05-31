@@ -4,7 +4,6 @@ page 50001 "Contact Relationship"
     ApplicationArea = All;
     UsageCategory = Lists;
     SourceTable = "Contact Relationship";
-
     layout
     {
         area(Content)
@@ -14,9 +13,14 @@ page 50001 "Contact Relationship"
                 field(code; Rec.code)
                 {
                     ApplicationArea = All;
+                    ToolTip = 'Specifies the business relationship to the contact.';
                 }
 
                 field(Description; Rec.Description)
+                {
+                    ApplicationArea = All;
+                }
+                field("Last Modified Date Time"; Rec."Last Modified Date Time")
                 {
                     ApplicationArea = All;
                 }
@@ -24,17 +28,24 @@ page 50001 "Contact Relationship"
                 {
                     ApplicationArea = All;
                 }
-
-                field("Last Modified Date Time"; Rec."Last Modified Date Time")
-                {
-                    ApplicationArea = All;
-                }
             }
         }
-        area(FactBoxes)
-        {
-            systempart(Link; Links)
-            { }
-        }
+
     }
+    /*  actions
+      {
+          area(Processing)
+          {
+              action("Contact")
+              {
+                  ApplicationArea = All;
+                  RunObject = page "Contact Relationship";
+                  trigger OnAction();
+                  begin
+
+                  end;
+              }
+          }
+      }
+  */
 }

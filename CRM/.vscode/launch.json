@@ -1,6 +1,7 @@
 {
     "version": "0.2.0",
     "configurations": [
+        
         {
             "name": "Microsoft cloud sandbox",
             "request": "launch",
@@ -11,8 +12,8 @@
             "startupObjectType": "Page",
             "breakOnError": "All",
             "launchBrowser": true,
-            "enableLongRunningSqlStatements": false,
-            "enableSqlInformationDebugger": false
+            "enableLongRunningSqlStatements": true,
+            "enableSqlInformationDebugger": true
         }
     ]
 }
