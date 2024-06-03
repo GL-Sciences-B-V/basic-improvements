@@ -1,5 +1,5 @@
 {
-  "id": "77993a37-87df-4247-9614-358bd373cf99",
+  "id": "a87f536f-7859-46ae-8fea-082d494928e7",
   "name": "CustomerRewards",
   "publisher": "GL Sciences B.V.",
   "version": "1.0.0.0",
@@ -16,7 +16,7 @@
   "application": "22.0.0.0",
   "idRanges": [
     {
-      "from": 50000,
+      "from": 50100,
       "to": 50149
     }
   ],
