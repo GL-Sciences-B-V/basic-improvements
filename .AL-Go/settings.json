@@ -1,6 +1,7 @@
 {
   "country": "us",
-  "appFolders": [],
+  "projectName": "BC Basic Improvements",
+  "appFolders": ["CRM","CustomerRewards"],
   "testFolders": [],
   "bcptTestFolders": [],
   "repoVersion": "1.1"
