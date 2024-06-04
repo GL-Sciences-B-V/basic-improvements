@@ -12,6 +12,12 @@
   "logo": "",
   "dependencies": [
     {
+  "id": "a87f536f-7859-46ae-8fea-082d494928e7",
+  "name": "CustomerRewards",
+  "publisher": "GL Sciences B.V.",
+  "version": "1.0.0.0"
+    },
+    {
       "publisher": "Microsoft",
       "name": "Library Assert",
       "id": "dd0be2ea-f733-4d65-bb34-a28f4624fb14",
