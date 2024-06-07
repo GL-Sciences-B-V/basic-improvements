@@ -18,7 +18,7 @@
             "numberOfSqlStatements": 10,
             //"breakOnNext": "WebServiceClient",
             "tenant": "default"
-        },
+        }
         /*{
             "name": "Microsoft cloud sandbox",
             "request": "launch",

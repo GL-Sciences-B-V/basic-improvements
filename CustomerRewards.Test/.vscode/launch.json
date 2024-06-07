@@ -4,20 +4,20 @@
         {
             "name": "mybc",
             "type": "al",
-            "request": "attach",
+            "request": "launch",
             "environmentType": "OnPrem",
             "server": "http://mysandbox",
             "serverInstance": "BC",
-            "authentication": "UserPassword",
+            "authentication": "Windows",
             "breakOnError": "All",
             "breakOnRecordWrite": "None",
             "enableSqlInformationDebugger": true,
             "enableLongRunningSqlStatements": true,
             "longRunningSqlStatementsThreshold": 500,
             "numberOfSqlStatements": 10,
-            "breakOnNext": "WebServiceClient",
+            //"breakOnNext": "WebServiceClient",
             "tenant": "default"
-        },
+        }
        /* {
             "name": "Microsoft cloud sandbox",
             "request": "launch",
