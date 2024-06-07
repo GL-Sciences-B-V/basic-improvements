@@ -21,7 +21,8 @@ table 50100 "Reward Level"
                 tempPoints: Integer;
                 RewardLevel: Record "Reward Level";
             begin
-                tempPoints := "Minimum Reward Points";
+                tempPoints := "Minimum Reward Points" + 1;
+                //tempPoints := "Minimum Reward Points";
                 RewardLevel.SetRange("Minimum Reward Points", tempPoints);
                 if RewardLevel.FindFirst then
                     Error('Minimum Reward Points must be unique');

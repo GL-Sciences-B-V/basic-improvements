@@ -2,6 +2,23 @@
     "version": "0.2.0",
     "configurations": [
         {
+            "name": "mybc",
+            "type": "al",
+            "request": "attach",
+            "environmentType": "OnPrem",
+            "server": "http://mysandbox",
+            "serverInstance": "BC",
+            "authentication": "UserPassword",
+            "breakOnError": "All",
+            "breakOnRecordWrite": "None",
+            "enableSqlInformationDebugger": true,
+            "enableLongRunningSqlStatements": true,
+            "longRunningSqlStatementsThreshold": 500,
+            "numberOfSqlStatements": 10,
+            "breakOnNext": "WebServiceClient",
+            "tenant": "default"
+        },
+       /* {
             "name": "Microsoft cloud sandbox",
             "request": "launch",
             "type": "al",
@@ -13,6 +30,6 @@
             "launchBrowser": true,
             "enableLongRunningSqlStatements": true,
             "enableSqlInformationDebugger": true
-        }
+        }*/
     ]
 }

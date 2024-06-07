@@ -6,7 +6,7 @@ codeunit 50103 "Customer Rewards Test"
     TestPermissions = Disabled; 
 
     var 
-        Assert: Codeunit Assert; 
+        Assert: Codeunit "Library Assert"; 
         LibraryLowerPermissions: Codeunit "Library - Lower Permissions"; 
         LibrarySales: Codeunit "Library - Sales"; 
         MockCustomerRewardsExtMgt: Codeunit MockCustomerRewardsExtMgt; 
